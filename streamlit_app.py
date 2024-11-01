@@ -88,10 +88,18 @@ def main():
     st.markdown(
         """
         <div style='background-color: #f0f2f6; padding: 15px; border-radius: 5px; text-align: center; margin-top: 20px;'>
-            <p style='margin: 0; color: #666;'>Made with Streamlit • Privacy Policy • Terms of Service</p>
+            <p style='margin: 0; color: #666;'>Crafted with ❤️ by nabin </p>
         </div>
         """,
         unsafe_allow_html=True
+    )
+    st.markdown(
+        """
+        <div style='background-color: #f0f2f6; padding: 15px; border-radius: 5px; text-align: center; margin-top: 20px;'>
+            <p style='margin: 0; color: #666;'>© 2024,All Rights Reserved.</p>
+        </div>
+       
+        """
     )
     
 
