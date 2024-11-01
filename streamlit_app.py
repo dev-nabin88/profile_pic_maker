@@ -100,6 +100,8 @@ def main():
         st.write("Example of how your processed image will look:")
         placeholder_image = "https://via.placeholder.com/400x300"
         st.image(placeholder_image, caption="Sample Image", width=300)
+
+footer()
     
 if __name__ == "__main__":
   main()    
