@@ -22,14 +22,6 @@ def change_background_color(image, color):
     background.paste(image, mask=image.getchannel('A'))
     
     return background
-def add_footer():
-    footer_col1,footer_col2=st.column(2)
-
-    st.markdown("""------""")
-
-    with footer_col1:
-        st.markdown=("###Contact")
-        st.markdown=("📧 Email: ghoruinabin29@gmail.com")
 
 def main():
     st.title("Profile Picture Background Changer")
@@ -100,7 +92,7 @@ def main():
         placeholder_image = "https://via.placeholder.com/400x300"
         st.image(placeholder_image, caption="Sample Image", width=300)
 
-    add_footer()
+   
     
 if __name__ == "__main__":
   main()    
