@@ -45,7 +45,7 @@ def main():
         # Show original image
         st.write("Original Image:")
         image = Image.open(uploaded_file)
-        st.image(image, width=300)
+        st.image(image, width=300,length=300)
         
         # Process button
         if st.button('Create Profile Picture'):
