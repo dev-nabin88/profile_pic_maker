@@ -83,10 +83,22 @@ def main():
                     file_name=f"profile_pic_{bg_color.lower()}.png",
                     mime="image/png"
                 )    
-                
+
+
+    st.markdown(
+        """
+        <div style='background-color: #f0f2f6; padding: 15px; border-radius: 5px; text-align: center; margin-top: 20px;'>
+            <p style='margin: 0; color: #666;'>More features will be added soon............stay tuned \U0001F634</p>
+        </div>
+       
+        """,
+        unsafe_allow_html=True
+    )
                
                 
     add_footer()
+    
+    
     st.markdown(
         """
         <div style='background-color: #f0f2f6; padding: 15px; border-radius: 5px; text-align: center; margin-top: 20px;'>
