@@ -6,6 +6,16 @@ import numpy as np
 
 st.title('Pic.Ly \U0001F600')
 
+def footer():
+    footer_col1,footer_col2 = st.columns(2)
+
+    st.markdown=("""----""")
+    
+with footer_col1:
+    st.markdown=("### Contact")
+    st.markdown=("📧 Email:ghoruinabin29@gmail.com")
+    st.markdown=("📱 8597150600")
+
 def change_background_color(image, color):
     
     color_map = {
