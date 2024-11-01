@@ -43,7 +43,7 @@ def add_footer():
         
 
 def main():
-    st.title("Profile Picture Maker")
+    st.title("Professional Profile Picture Maker")
     st.write("Upload your image and create a profile picture with a colored background!")
     
     # File uploader
