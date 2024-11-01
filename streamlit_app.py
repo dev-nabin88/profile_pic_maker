@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title('🎈 App Name')
+st.title('Pic.Ly')
 
-st.write('Hello world!')
+st.write('welcome,create your professional profile with one click')
