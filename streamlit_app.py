@@ -6,10 +6,8 @@ import numpy as np
 
 st.title('Pic.Ly')
 
-st.write('welcome,create your professional profile with one click')
-
 def change_background_color(image, color):
-    # Convert color name to RGB values
+    
     color_map = {
         'Purple': (128, 0, 128),
         'Red': (255, 0, 0),
