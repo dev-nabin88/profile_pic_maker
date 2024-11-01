@@ -79,7 +79,7 @@ def main():
                     file_name=f"profile_pic_{bg_color.lower()}.png",
                     mime="image/png"
                 )
-   add_footer()              
+    add_footer()              
 
 if __name__ == '__main__':
     main()
