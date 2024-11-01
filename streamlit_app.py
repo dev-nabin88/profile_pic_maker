@@ -4,7 +4,7 @@ from PIL import Image
 import io
 import numpy as np
 
-st.title('Pic.Ly')
+st.title('Pic.Ly \U0001F600')
 
 def change_background_color(image, color):
     
