@@ -39,6 +39,15 @@ def add_footer():
         - [LinkedIn](https://www.linkedin.com/in/nabinghorui)
         - [Twitter](https://x.com/im_Ghoruinabin)
         """)
+
+st.markdown(
+        """
+        <div style='background-color: #f0f2f6; padding: 15px; border-radius: 5px; text-align: center; margin-top: 20px;'>
+            <p style='margin: 0; color: #666;'>Made with Streamlit • Privacy Policy • Terms of Service</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
         
 
 def main():
