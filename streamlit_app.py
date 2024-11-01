@@ -100,7 +100,7 @@ def main():
         placeholder_image = "https://via.placeholder.com/400x300"
         st.image(placeholder_image, caption="Sample Image", width=300)
 
-footer()
+    add_footer()
     
 if __name__ == "__main__":
   main()    
