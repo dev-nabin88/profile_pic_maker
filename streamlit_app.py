@@ -67,7 +67,7 @@ def main():
             with st.spinner('Processing...'):
                 # Process the image
                 result = remove_background_and_add_color(uploaded_file, bg_color)
-                
+             
                 # Display result
                 st.write("Result:")
                 st.image(result, width=300)
@@ -83,7 +83,10 @@ def main():
                     data=byte_im,
                     file_name=f"profile_pic_{bg_color.lower()}.png",
                     mime="image/png"
-                )
+                )    
+                
+               
+                
     add_footer()
     st.markdown(
         """
