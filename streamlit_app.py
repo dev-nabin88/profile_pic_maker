@@ -40,6 +40,14 @@ def add_footer():
         - [Twitter](https://x.com/im_Ghoruinabin)
         """)
 
+    with footer_col2:
+        st.markdown("### About")
+        st.markdown("""
+        Profile Picture Maker v1.0
+        
+        """)
+        
+
 
         
 
