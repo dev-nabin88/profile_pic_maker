@@ -92,19 +92,7 @@ def main():
                     mime="image/png"
                 )
     add_footer()
-    st.markdown(
-        """
-        <style>
-        footer {
-            visibility: hidden;
-        }
-        .css-1lsmgbg {
-            padding: 1rem 1rem 10rem;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
+    
 
 if __name__ == '__main__':
     main()
