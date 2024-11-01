@@ -88,7 +88,7 @@ def main():
     st.markdown(
         """
         <div style='background-color: #f0f2f6; padding: 15px; border-radius: 5px; text-align: center; margin-top: 20px;'>
-            <p style='margin: 0; color: #666;'>More features will be added soon............stay tuned \U0001F634</p>
+            <p style='margin: 0; color: #666;'>More features will be added soon............stay tuned \U0001F634 \U0001F634 \U0001F634</p>
         </div>
        
         """,
