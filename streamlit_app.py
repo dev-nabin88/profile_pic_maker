@@ -33,7 +33,7 @@ def add_footer():
 
     st.markdown("-----")
     with footer_col1:
-        st.markdown("### contact")
+        st.markdown("### Developer Contact")
         st.markdown("📧 Email: ghoruinabin29@gmail.com")
         st.markdown("📱+91 8597150600")
         
