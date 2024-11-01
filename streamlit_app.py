@@ -99,7 +99,8 @@ def main():
             <p style='margin: 0; color: #666;'>© 2024,All Rights Reserved.</p>
         </div>
        
-        """
+        """,
+        unsafe_allow_html=True
     )
     
 
