@@ -28,6 +28,16 @@ def remove_background_and_add_color(upload, bg_color):
     
     return background
 
+def add_footer():
+    footer_col1, footer_col2 = st.columns(2)
+
+    st.markdown("-----")
+    with footer_col1:
+        st.markdown("### contact")
+        st.markdown("📧 Email: ghoruinabin29@gmail.com")
+        st.markdown("📱+91 8597150600")
+        
+
 def main():
     st.title("Profile Picture Maker")
     st.write("Upload your image and create a profile picture with a colored background!")
@@ -69,6 +79,7 @@ def main():
                     file_name=f"profile_pic_{bg_color.lower()}.png",
                     mime="image/png"
                 )
+   add_footer()              
 
 if __name__ == '__main__':
     main()
