@@ -54,7 +54,7 @@ def main():
     # Color selection
     bg_color = st.selectbox(
         'Choose background color',
-        ('Purple', 'Red', 'Yellow')
+        ('Purple', 'Red', 'Yellow', 'Blue')
     )
     
     if uploaded_file is not None:
