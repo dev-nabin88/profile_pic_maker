@@ -36,8 +36,8 @@ def add_footer():
         st.markdown("### Developer Contact")
         st.markdown("📧 Email: ghoruinabin29@gmail.com")
         st.markdown("""
-        - [LinkedIn](https://www.linkedin.com/in/nabinghorui)
-        - [Twitter](https://x.com/im_Ghoruinabin)
+        - [🔗🔗🔗LinkedIn](https://www.linkedin.com/in/nabinghorui)
+        - [🔗🔗🔗Twitter](https://x.com/im_Ghoruinabin)
         """)
 
         
