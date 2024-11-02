@@ -38,6 +38,7 @@ def add_footer():
         st.markdown("""
         - [🔗🔗🔗LinkedIn](https://www.linkedin.com/in/nabinghorui)
         - [🔗🔗🔗Twitter](https://x.com/im_Ghoruinabin)
+        
         """)
 
         
