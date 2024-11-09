@@ -11,7 +11,8 @@ def remove_background_and_add_color(upload, bg_color):
         'Purple': (128, 0, 128),
         'Red': (255, 0, 0),
         'Yellow': (255, 255, 0),
-        'Blue': (76, 137, 248)
+        'Blue': (76, 137, 248),
+        'pink': (199, 142, 255)
         
     }
     
