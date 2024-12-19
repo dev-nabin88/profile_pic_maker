@@ -1,9 +1,9 @@
 # 📦 Profile Picture Maker
 ```
-⬆️ (Replace above with your app's name)
-```
 
 Description of the app ...
+
+Pic.Ly is an Profile picture maker app where user can upload image and change the backgroung colour.
 
 ## Demo App
 
