@@ -3,6 +3,7 @@ from rembg import remove
 from PIL import Image
 import io
 import numpy as np
+import onnxruntime as ort
 
 st.title('Pic.Ly \U0001F600')
 def remove_background_and_add_color(upload, bg_color):
